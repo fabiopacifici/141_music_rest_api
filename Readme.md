@@ -11,6 +11,17 @@
   duration: Number,
   coverArt: String
 }
+
+// example object
+{
+  "id": 1,
+  "title": "Bohemian Rhapsody",
+  "artist": "Queen",
+  "album": "A Night at the Opera",
+  "genre": ["Rock", "Progressive Rock"],
+  "duration": 354,
+  "coverArt": "https://example.com/images/bohemian-rhapsody.jpg"
+}
 ```
 
 ## Project Steps
@@ -23,7 +34,9 @@
 - [x] Add a new `start` and dev (or watch) script in the `package.json` file
 - [x] Add the initial server logic in the `server.js` file  
 - [x] Create the first routes in `server.js` and test with Postman
-
+- [x] Create the initial routes (witout router) in server.js
+- [x] Add the body parser middleware to the server
+  
 - [ ] Create a new `routes` folder
 - [ ] Create a new `songs.js` file in the `routes` folder
 - [ ] Create the CRUD Routes in the `songs.js` file
