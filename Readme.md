@@ -46,6 +46,6 @@
 - [x] Create a new `songs.js` file in the `controllers` folder
 - [x] Move the logic from the `routes/songs.js` file to the `controllers/songs.js` file
 - [x] add static assets middleware to the server
-- [] create a new middleware folder
-- [] add server error handling middleware
+- [x] create a new middleware folder
+- [x] add server error handling middleware
 - [] add a 404 middleware to the server

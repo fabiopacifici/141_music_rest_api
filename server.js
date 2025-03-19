@@ -2,7 +2,7 @@ const express = require('express')
 const app = express()
 const port = 3000
 const songsRouter = require('./routes/songs')
-
+const serverError = require('./middlewares/serverError')
 
 // Start the server
 app.listen(port, () => {
@@ -21,3 +21,6 @@ app.get('/', (req, res) => {
 /* Music Routes */
 app.use('/api/v1/songs', songsRouter)
 
+
+
+app.use(serverError)
