@@ -39,9 +39,9 @@
   
 - [x] Create a new `routes` folder
 - [x] Create a new `songs.js` file in the `routes` folder
-- [ ] Create a new `data` folder
-- [ ] Create a new `songs.js` file in the `data` folder
+- [x] Create the CRUD Routes in the `songs.js` file
+- [x] Create a new `data` folder
+- [x] Create a new `songs.js` file in the `data` folder
 - [ ] Create a new `controllers` folder
 - [ ] Create a new `songs.js` file in the `controllers` folder
-- [ ] Create the CRUD Routes in the `songs.js` file
 - [ ] Move the logic from the `routes/songs.js` file to the `controllers/songs.js` file
