@@ -15,11 +15,11 @@
 
 ## Project Steps
 
-- [ ] Create a new `server.js` file
-- [ ] Create a new Node.js project `npm init -y`
-- [ ] Install a new Express.js project `npm install express`
-- [ ] Create a new `.gitignore` file
-- [ ] Add the `node_modules` folder to the `.gitignore` file
+- [x] Create a new `server.js` file
+- [x] Create a new Node.js project `npm init -y`
+- [x] Install a new Express.js project `npm install express`
+- [x] Create a new `.gitignore` file
+- [x] Add the `node_modules` folder to the `.gitignore` file
 - [ ] Add a new `start` script in the `package.json` file
 - [ ] Add the initial server logic in the `server.js` file  
 - [ ] Create the first routes in `server.js` and test with Postman
