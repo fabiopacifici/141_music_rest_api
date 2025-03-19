@@ -49,3 +49,17 @@
 - [x] create a new middleware folder
 - [x] add server error handling middleware
 - [x] add a 404 middleware to the server
+
+## How to clone this project
+
+```bash
+cd your-projects-folder
+git clone https://github.com/fabiopacifici/141_music_rest_api.git
+cd 141_music_rest_api
+npm install
+npm run dev
+```
+
+## TODO
+
+Complete the CRUD operations for the songs API inside the songController.js file
