@@ -6,7 +6,7 @@ const songs = [
     "album": "A Night at the Opera",
     "genre": ["Rock", "Progressive Rock"],
     "duration": 354,
-    "coverArt": "https://example.com/images/bohemian-rhapsody.jpg"
+    "coverArt": "/img/bohemian-rhapsody.jpg"
   },
   {
     "id": 2,
@@ -15,7 +15,7 @@ const songs = [
     "album": "Thriller",
     "genre": ["Pop", "R&B"],
     "duration": 294,
-    "coverArt": "https://example.com/images/billie-jean.jpg"
+    "coverArt": "/img/billie-jean.jpg"
   },
   {
     "id": 3,
@@ -24,7 +24,7 @@ const songs = [
     "album": "Nevermind",
     "genre": ["Grunge", "Alternative Rock"],
     "duration": 301,
-    "coverArt": "https://example.com/images/teen-spirit.jpg"
+    "coverArt": "/img/teen-spirit.jpg"
   },
   {
     "id": 4,
@@ -33,7 +33,7 @@ const songs = [
     "album": "The Beatles (White Album)",
     "genre": ["Rock", "Pop Rock"],
     "duration": 431,
-    "coverArt": "https://example.com/images/hey-jude.jpg"
+    "coverArt": "/img/hey-jude.jpg"
   }
 ]
 
