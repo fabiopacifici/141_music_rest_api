@@ -48,4 +48,4 @@
 - [x] add static assets middleware to the server
 - [x] create a new middleware folder
 - [x] add server error handling middleware
-- [] add a 404 middleware to the server
+- [x] add a 404 middleware to the server

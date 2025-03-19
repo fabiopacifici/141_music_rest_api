@@ -3,6 +3,7 @@ const app = express()
 const port = 3000
 const songsRouter = require('./routes/songs')
 const serverError = require('./middlewares/serverError')
+const notFound = require('./middlewares/notFound')
 
 // Start the server
 app.listen(port, () => {
@@ -23,4 +24,7 @@ app.use('/api/v1/songs', songsRouter)
 
 
 
+
+// Error handling
 app.use(serverError)
+app.use(notFound)
