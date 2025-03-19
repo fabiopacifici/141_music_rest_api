@@ -20,9 +20,9 @@
 - [x] Install a new Express.js project `npm install express`
 - [x] Create a new `.gitignore` file
 - [x] Add the `node_modules` folder to the `.gitignore` file
-- [ ] Add a new `start` script in the `package.json` file
-- [ ] Add the initial server logic in the `server.js` file  
-- [ ] Create the first routes in `server.js` and test with Postman
+- [x] Add a new `start` and dev (or watch) script in the `package.json` file
+- [x] Add the initial server logic in the `server.js` file  
+- [x] Create the first routes in `server.js` and test with Postman
 
 - [ ] Create a new `routes` folder
 - [ ] Create a new `songs.js` file in the `routes` folder
